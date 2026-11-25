@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "generated": "2026-11-25T11:00:00Z",
+  "overall": {
+    "done": 20,
+    "total": 43,
+    "percent": 47
+  },
+  "waves": [
+    {
+      "id": "W1",
+      "name": "Foundations and testing",
+      "done": 8,
+      "total": 12,
+      "percent": 67,
+      "pieces": {
+        "finished": 8,
+        "building": 0,
+        "review": 1,
+        "queued": 3
+      }
+    },
+    {
+      "id": "W2",
+      "name": "The new agent phone",
+      "done": 0,
+      "total": 2,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 0,
+        "review": 1,
+        "queued": 1
+      }
+    },
+    {
+      "id": "W3",
+      "name": "Phone system modernised",
+      "done": 0,
+      "total": 2,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 1,
+        "review": 1,
+        "queued": 0
+      }
+    },
+    {
+      "id": "W4",
+      "name": "Phone system on the long-term release",
+      "done": 0,
+      "total": 1,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 1,
+        "review": 0,
+        "queued": 0
+      }
+    },
+    {
+      "id": "W5",
+      "name": "New Core: first working version",
+      "done": 7,
+      "total": 10,
+      "percent": 70,
+      "pieces": {
+        "finished": 7,
+        "building": 3,
+        "review": 0,
+        "queued": 0
+      }
+    },
+    {
+      "id": "W6",
+      "name": "Agent screen on the new Core",
+      "done": 1,
+      "total": 4,
+      "percent": 25,
+      "pieces": {
+        "finished": 1,
+        "building": 1,
+        "review": 1,
+        "queued": 1
+      }
+    },
+    {
+      "id": "W7",
+      "name": "Call control on the new Core",
+      "done": 0,
+      "total": 2,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 0,
+        "review": 0,
+        "queued": 2
+      }
+    },
+    {
+      "id": "W8",
+      "name": "Automatic dialling and inbound calls",
+      "done": 0,
+      "total": 1,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 0,
+        "review": 1,
+        "queued": 0
+      }
+    },
+    {
+      "id": "W9",
+      "name": "Admin and reports on the new Core",
+      "done": 0,
+      "total": 1,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 0,
+        "review": 0,
+        "queued": 1
+      }
+    },
+    {
+      "id": "W10",
+      "name": "Retiring the old dialler",
+      "done": 0,
+      "total": 1,
+      "percent": 0,
+      "pieces": {
+        "finished": 0,
+        "building": 0,
+        "review": 0,
+        "queued": 1
+      }
+    },
+    {
+      "id": "D",
+      "name": "Decisions to make",
+      "done": 4,
+      "total": 7,
+      "percent": 57,
+      "pieces": {
+        "finished": 4,
+        "building": 0,
+        "review": 2,
+        "queued": 1
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "core",
+      "name": "Core (the new engine)",
+      "done": 5,
+      "total": 11,
+      "percent": 45
+    },
+    {
+      "id": "phone",
+      "name": "Agent phone",
+      "done": 0,
+      "total": 2,
+      "percent": 0
+    },
+    {
+      "id": "telephony",
+      "name": "Phone system (Asterisk)",
+      "done": 1,
+      "total": 5,
+      "percent": 20
+    },
+    {
+      "id": "data",
+      "name": "Data (PostgreSQL)",
+      "done": 2,
+      "total": 4,
+      "percent": 50
+    },
+    {
+      "id": "admin",
+      "name": "Admin and reports",
+      "done": 0,
+      "total": 1,
+      "percent": 0
+    },
+    {
+      "id": "platform",
+      "name": "Platform and testing",
+      "done": 8,
+      "total": 13,
+      "percent": 62
+    }
+  ],
+  "counts": {
+    "building": 6,
+    "review": 7,
+    "finished_7d": 20
+  },
+  "events": [
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "data",
+      "text": "A first design for the Core's data model is drafted, built from day one to serve many companies side by side.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": null,
+      "text": "A piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": null,
+      "text": "A piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": null,
+      "text": "A piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": null,
+      "text": "A piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "The agent API contract is written down in an open standard format, so every part of Dially can be built against the same rules.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "The comparison tool that proves the new system behaves exactly like the old one has been made stricter and more reliable.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "started",
+      "area": "data",
+      "text": "Data: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T10:00:00Z",
+      "kind": "started",
+      "area": "platform",
+      "text": "Platform: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T09:00:00Z",
+      "kind": "started",
+      "area": "telephony",
+      "text": "Phone system: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T09:00:00Z",
+      "kind": "started",
+      "area": "telephony",
+      "text": "Phone system: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T08:00:00Z",
+      "kind": "finished",
+      "area": "data",
+      "text": "The Core now keeps its state in a durable PostgreSQL database, so nothing is lost if it restarts.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T08:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T08:00:00Z",
+      "kind": "started",
+      "area": "data",
+      "text": "Data: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T07:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "A shadow-mode comparison tool now runs against test traffic.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T06:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "The new Core's agent state machine is built and thoroughly tested: it tracks every agent as ready, on a call, paused or wrapping up.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "Agent screens can now sign in to the new Core and receive a continuous stream of their own status changes.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "finished",
+      "area": "telephony",
+      "text": "The Core can now talk to the phone system and react to calls as they happen, and it recovers by itself after a connection drop.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "The Core's call handling, agent logic and agent connections now run together as one working program.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T04:00:00Z",
+      "kind": "started",
+      "area": "data",
+      "text": "Data: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T01:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#041529">
+<meta name="description" content="Build progress of Dially, a new dialler.">
+<title>Dially build status</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the progress</a>
+<header class="top">
+  <div class="brand">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/dially-mark-ondark.svg">
+      <img src="assets/dially-mark.svg" alt="Dially" width="56" height="33">
+    </picture>
+    <div>
+      <h1>Dially build status</h1>
+      <p class="tagline">A new dialler, built one proven step at a time.</p>
+    </div>
+  </div>
+  <div class="conn" id="conn" data-state="connecting">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="conn-label" id="conn-label" role="status">Connecting</span>
+    <span class="conn-age" id="conn-age" aria-hidden="true"></span>
+  </div>
+</header>
+
+<main id="main">
+  <noscript><p class="notice">This page needs JavaScript to show the latest numbers. The progress is also written up in the project's status notes.</p></noscript>
+  <p class="notice" id="notice" hidden></p>
+  <p class="notice" id="stale" role="status" hidden></p>
+
+  <section class="card overall" aria-labelledby="h-overall">
+    <h2 id="h-overall">Overall progress</h2>
+    <div class="overall-row">
+      <span class="big" id="overall-pct">0%</span>
+      <div class="overall-bar">
+        <div class="bar" id="overall-bar" role="progressbar" aria-labelledby="h-overall" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="fill"></span></div>
+        <p class="sub" id="overall-sub">Loading the latest numbers.</p>
+      </div>
+    </div>
+    <p class="fine">The bar counts finished pieces of publicly tracked work, not time, and it is not the whole project: some work is deliberately not shown here. Pieces are added as the work is understood, so the total can grow while the bar stands still.</p>
+  </section>
+
+  <section aria-labelledby="h-counts">
+    <h2 id="h-counts" class="section-title">Right now</h2>
+    <ul class="counts">
+      <li class="card count" id="c-building"><span class="num">0</span><span class="lbl">Being built</span></li>
+      <li class="card count" id="c-review"><span class="num">0</span><span class="lbl">In independent review</span></li>
+      <li class="card count" id="c-finished_7d"><span class="num">0</span><span class="lbl">Finished in the last 7 days</span></li>
+    </ul>
+  </section>
+
+  <div class="cols">
+    <section class="card" aria-labelledby="h-waves">
+      <h2 id="h-waves">Progress by wave</h2>
+      <p class="fine">The plan runs in sequential waves. Select a wave to see how its pieces are spread.</p>
+      <div class="rows" id="waves"></div>
+    </section>
+    <section class="card" aria-labelledby="h-areas">
+      <h2 id="h-areas">Progress by area</h2>
+      <p class="fine">The same pieces of work, grouped by what part of the product they belong to.</p>
+      <div class="rows" id="areas"></div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="h-feed">
+    <h2 id="h-feed">Recent activity</h2>
+    <p class="activity" id="activity">Waiting for the first update.</p>
+    <ol class="feed" id="feed"></ol>
+    <p class="empty" id="feed-empty" hidden>Nothing has been recorded in the last two weeks.</p>
+    <button type="button" class="more" id="feed-more" hidden>Show older events</button>
+  </section>
+</main>
+
+<footer>
+  <p>Only counts and plain-English summaries are published here: no work item titles, numbers, links or technical details. This page checks for new data every 20 seconds and needs no sign-in.</p>
+</footer>
+<div class="sr-only" id="announce" aria-live="polite"></div>
+<script src="assets/lib.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
