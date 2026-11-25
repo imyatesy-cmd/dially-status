@@ -106,8 +106,8 @@
       "percent": 0,
       "pieces": {
         "finished": 0,
-        "building": 1,
-        "review": 2,
+        "building": 0,
+        "review": 3,
         "queued": 0
       }
     },
@@ -196,8 +196,8 @@
     }
   ],
   "counts": {
-    "building": 3,
-    "review": 8,
+    "building": 2,
+    "review": 9,
     "finished_7d": 24
   },
   "events": [
