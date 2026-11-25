@@ -24,10 +24,13 @@
       <p class="tagline">A new dialler, built one proven step at a time.</p>
     </div>
   </div>
-  <div class="conn" id="conn" data-state="connecting">
-    <span class="dot" aria-hidden="true"></span>
-    <span class="conn-label" id="conn-label" role="status">Connecting</span>
-    <span class="conn-age" id="conn-age" aria-hidden="true"></span>
+  <div class="status-box">
+    <div class="conn" id="conn" data-state="connecting">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="conn-label" id="conn-label" role="status">Connecting</span>
+      <span class="conn-age" id="conn-age" aria-hidden="true"></span>
+    </div>
+    <p class="clock" id="clock"><span class="clock-label">Data published (UTC, rounded to the hour)</span> <time class="clock-value" id="clock-value">not loaded yet</time></p>
   </div>
 </header>
 

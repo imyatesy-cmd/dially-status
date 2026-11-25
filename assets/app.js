@@ -186,6 +186,9 @@
       $('activity').textContent = latest
         ? 'Last recorded activity: ' + whenText(latest) + ' (times are shown to the hour).'
         : 'No recent activity recorded.';
+      var clock = $('clock-value');
+      clock.textContent = state.data.generated ? L.formatUtc(state.data.generated) : 'unknown';
+      if (state.data.generated) clock.dateTime = state.data.generated;
       var stale = state.data.generated ? L.staleHours(state.data.generated, now) : 0;
       $('stale').hidden = !stale;
       if (stale) $('stale').textContent = 'The data is ' + stale + ' hours old. Updates may have paused; this page catches up by itself when they resume.';

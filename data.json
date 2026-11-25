@@ -2,21 +2,21 @@
   "schema": 1,
   "generated": "2026-11-25T12:00:00Z",
   "overall": {
-    "done": 20,
+    "done": 21,
     "total": 44,
-    "percent": 45
+    "percent": 48
   },
   "waves": [
     {
       "id": "W1",
       "name": "Foundations and testing",
-      "done": 8,
+      "done": 9,
       "total": 12,
-      "percent": 67,
+      "percent": 75,
       "pieces": {
-        "finished": 8,
+        "finished": 9,
         "building": 0,
-        "review": 1,
+        "review": 0,
         "queued": 3
       }
     },
@@ -190,17 +190,24 @@
     {
       "id": "platform",
       "name": "Platform and testing",
-      "done": 8,
+      "done": 9,
       "total": 13,
-      "percent": 62
+      "percent": 69
     }
   ],
   "counts": {
     "building": 6,
-    "review": 8,
-    "finished_7d": 20
+    "review": 7,
+    "finished_7d": 21
   },
   "events": [
+    {
+      "at": "2026-11-25T12:00:00Z",
+      "kind": "finished",
+      "area": "platform",
+      "text": "Platform: a piece of work finished",
+      "highlight": false
+    },
     {
       "at": "2026-11-25T11:00:00Z",
       "kind": "started",
@@ -402,13 +409,6 @@
       "kind": "started",
       "area": "core",
       "text": "Core: a piece of work was started",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "started",
-      "area": "data",
-      "text": "Data: a piece of work was started",
       "highlight": false
     }
   ]

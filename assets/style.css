@@ -60,6 +60,10 @@ p { margin: 0; }
 
 .conn { display: inline-flex; align-items: center; gap: .5rem; padding: .35rem .85rem; border: 1px solid var(--line); border-radius: 999px; background: var(--card); font-size: .875rem; }
 .conn-age { color: var(--muted); font-variant-numeric: tabular-nums; }
+.status-box { display: flex; flex-direction: column; align-items: flex-end; gap: .35rem; }
+.clock { color: var(--muted); font-size: .8125rem; text-align: right; }
+.clock-value { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+@media (max-width: 30rem) { .status-box { align-items: flex-start; } .clock { text-align: left; } }
 .dot { width: .65rem; height: .65rem; border-radius: 50%; background: var(--muted); }
 .conn[data-state="connected"] .dot { background: var(--ok); animation: pulse 2.4s ease-out infinite; }
 .conn[data-state="connected"] .conn-label { color: var(--ok); }

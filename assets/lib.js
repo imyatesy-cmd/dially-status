@@ -26,6 +26,13 @@
     return formatAgo(s);
   }
 
+  // "2026-11-25 12:00 UTC" from the data file's build hour (UTC, rounded to the hour); '' when it is missing or invalid.
+  function formatUtc(iso) {
+    const t = Date.parse(iso);
+    if (!Number.isFinite(t)) return '';
+    return new Date(t).toISOString().slice(0, 13).replace('T', ' ') + ':00 UTC';
+  }
+
   // 'stale' when the data file is older than five hours (publishing runs every 2 hours and refreshes idle data after 3).
   const STALE_SECONDS = 5 * 3600;
   function staleHours(generated, nowMs) {
@@ -107,5 +114,5 @@
     return eventKeys(events).filter(key => !seen.has(key));
   }
 
-  return { SUPPORTED_SCHEMA, BASE_MS, MAX_MS, formatAgo, formatAgoCoarse, staleHours, nextDelay, connectionState, checkShape, eventKeys, newEventKeys };
+  return { SUPPORTED_SCHEMA, BASE_MS, MAX_MS, formatAgo, formatAgoCoarse, formatUtc, staleHours, nextDelay, connectionState, checkShape, eventKeys, newEventKeys };
 }));
