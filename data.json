@@ -2,8 +2,8 @@
   "schema": 1,
   "generated": "2026-11-25T15:00:00Z",
   "overall": {
-    "done": 23,
-    "total": 44,
+    "done": 24,
+    "total": 46,
     "percent": 52
   },
   "waves": [
@@ -75,14 +75,14 @@
     {
       "id": "W6",
       "name": "Agent screen on the new Core",
-      "done": 2,
-      "total": 4,
+      "done": 3,
+      "total": 6,
       "percent": 50,
       "pieces": {
-        "finished": 2,
-        "building": 1,
+        "finished": 3,
+        "building": 0,
         "review": 0,
-        "queued": 1
+        "queued": 3
       }
     },
     {
@@ -155,8 +155,8 @@
     {
       "id": "core",
       "name": "Core (the new engine)",
-      "done": 6,
-      "total": 12,
+      "done": 7,
+      "total": 14,
       "percent": 50
     },
     {
@@ -196,16 +196,37 @@
     }
   ],
   "counts": {
-    "building": 4,
+    "building": 3,
     "review": 7,
-    "finished_7d": 23
+    "finished_7d": 24
   },
   "events": [
     {
       "at": "2026-11-25T15:00:00Z",
       "kind": "finished",
+      "area": "core",
+      "text": "Core: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T15:00:00Z",
+      "kind": "finished",
       "area": "data",
       "text": "Data: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T15:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T15:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
       "highlight": false
     },
     {
@@ -388,27 +409,6 @@
       "kind": "finished",
       "area": "core",
       "text": "The new Core's agent state machine is built and thoroughly tested: it tracks every agent as ready, on a call, paused or wrapping up.",
-      "highlight": true
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "finished",
-      "area": "core",
-      "text": "Agent screens can now sign in to the new Core and receive a continuous stream of their own status changes.",
-      "highlight": true
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "finished",
-      "area": "telephony",
-      "text": "The Core can now talk to the phone system and react to calls as they happen, and it recovers by itself after a connection drop.",
-      "highlight": true
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "finished",
-      "area": "core",
-      "text": "The Core's call handling, agent logic and agent connections now run together as one working program.",
       "highlight": true
     }
   ]
