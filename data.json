@@ -3,8 +3,8 @@
   "generated": "2026-11-25T16:00:00Z",
   "overall": {
     "done": 24,
-    "total": 48,
-    "percent": 50
+    "total": 49,
+    "percent": 49
   },
   "waves": [
     {
@@ -29,8 +29,8 @@
       "pieces": {
         "finished": 0,
         "building": 0,
-        "review": 1,
-        "queued": 1
+        "review": 0,
+        "queued": 2
       }
     },
     {
@@ -42,8 +42,8 @@
       "pieces": {
         "finished": 0,
         "building": 0,
-        "review": 2,
-        "queued": 0
+        "review": 0,
+        "queued": 2
       }
     },
     {
@@ -54,9 +54,9 @@
       "percent": 0,
       "pieces": {
         "finished": 0,
-        "building": 1,
+        "building": 0,
         "review": 0,
-        "queued": 0
+        "queued": 1
       }
     },
     {
@@ -67,9 +67,9 @@
       "percent": 73,
       "pieces": {
         "finished": 8,
-        "building": 1,
+        "building": 0,
         "review": 1,
-        "queued": 1
+        "queued": 2
       }
     },
     {
@@ -102,11 +102,11 @@
       "id": "W8",
       "name": "Automatic dialling and inbound calls",
       "done": 0,
-      "total": 3,
+      "total": 4,
       "percent": 0,
       "pieces": {
         "finished": 0,
-        "building": 0,
+        "building": 1,
         "review": 3,
         "queued": 0
       }
@@ -156,8 +156,8 @@
       "id": "core",
       "name": "Core (the new engine)",
       "done": 7,
-      "total": 16,
-      "percent": 44
+      "total": 17,
+      "percent": 41
     },
     {
       "id": "phone",
@@ -196,11 +196,18 @@
     }
   ],
   "counts": {
-    "building": 2,
-    "review": 9,
+    "building": 1,
+    "review": 6,
     "finished_7d": 24
   },
   "events": [
+    {
+      "at": "2026-11-25T16:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
     {
       "at": "2026-11-25T16:00:00Z",
       "kind": "started",
@@ -402,13 +409,6 @@
       "kind": "started",
       "area": "core",
       "text": "Core: a piece of work was started",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T08:00:00Z",
-      "kind": "started",
-      "area": "data",
-      "text": "Data: a piece of work was started",
       "highlight": false
     }
   ]
