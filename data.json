@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T15:00:00Z",
+  "generated": "2026-11-25T16:00:00Z",
   "overall": {
     "done": 24,
-    "total": 46,
-    "percent": 52
+    "total": 48,
+    "percent": 50
   },
   "waves": [
     {
@@ -67,9 +67,9 @@
       "percent": 73,
       "pieces": {
         "finished": 8,
-        "building": 2,
+        "building": 1,
         "review": 1,
-        "queued": 0
+        "queued": 1
       }
     },
     {
@@ -102,12 +102,12 @@
       "id": "W8",
       "name": "Automatic dialling and inbound calls",
       "done": 0,
-      "total": 1,
+      "total": 3,
       "percent": 0,
       "pieces": {
         "finished": 0,
-        "building": 0,
-        "review": 1,
+        "building": 1,
+        "review": 2,
         "queued": 0
       }
     },
@@ -156,8 +156,8 @@
       "id": "core",
       "name": "Core (the new engine)",
       "done": 7,
-      "total": 14,
-      "percent": 50
+      "total": 16,
+      "percent": 44
     },
     {
       "id": "phone",
@@ -197,10 +197,24 @@
   ],
   "counts": {
     "building": 3,
-    "review": 7,
+    "review": 8,
     "finished_7d": 24
   },
   "events": [
+    {
+      "at": "2026-11-25T16:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-25T16:00:00Z",
+      "kind": "started",
+      "area": "core",
+      "text": "Core: a piece of work was started",
+      "highlight": false
+    },
     {
       "at": "2026-11-25T15:00:00Z",
       "kind": "finished",
@@ -396,20 +410,6 @@
       "area": "data",
       "text": "Data: a piece of work was started",
       "highlight": false
-    },
-    {
-      "at": "2026-11-25T07:00:00Z",
-      "kind": "finished",
-      "area": "core",
-      "text": "A shadow-mode comparison tool now runs against test traffic.",
-      "highlight": true
-    },
-    {
-      "at": "2026-11-25T06:00:00Z",
-      "kind": "finished",
-      "area": "core",
-      "text": "The new Core's agent state machine is built and thoroughly tested: it tracks every agent as ready, on a call, paused or wrapping up.",
-      "highlight": true
     }
   ]
 }
