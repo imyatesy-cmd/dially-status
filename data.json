@@ -2,9 +2,9 @@
   "schema": 1,
   "generated": "2026-11-25T12:00:00Z",
   "overall": {
-    "done": 21,
+    "done": 22,
     "total": 44,
-    "percent": 48
+    "percent": 50
   },
   "waves": [
     {
@@ -41,8 +41,8 @@
       "percent": 0,
       "pieces": {
         "finished": 0,
-        "building": 1,
-        "review": 1,
+        "building": 0,
+        "review": 2,
         "queued": 0
       }
     },
@@ -75,13 +75,13 @@
     {
       "id": "W6",
       "name": "Agent screen on the new Core",
-      "done": 1,
+      "done": 2,
       "total": 4,
-      "percent": 25,
+      "percent": 50,
       "pieces": {
-        "finished": 1,
+        "finished": 2,
         "building": 1,
-        "review": 1,
+        "review": 0,
         "queued": 1
       }
     },
@@ -155,9 +155,9 @@
     {
       "id": "core",
       "name": "Core (the new engine)",
-      "done": 5,
+      "done": 6,
       "total": 12,
-      "percent": 42
+      "percent": 50
     },
     {
       "id": "phone",
@@ -196,11 +196,18 @@
     }
   ],
   "counts": {
-    "building": 6,
+    "building": 5,
     "review": 7,
-    "finished_7d": 21
+    "finished_7d": 22
   },
   "events": [
+    {
+      "at": "2026-11-25T12:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "Core: a piece of work finished",
+      "highlight": false
+    },
     {
       "at": "2026-11-25T12:00:00Z",
       "kind": "finished",
@@ -396,13 +403,6 @@
       "area": "core",
       "text": "The Core's call handling, agent logic and agent connections now run together as one working program.",
       "highlight": true
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "started",
-      "area": "core",
-      "text": "Core: a piece of work was started",
-      "highlight": false
     },
     {
       "at": "2026-11-25T04:00:00Z",
