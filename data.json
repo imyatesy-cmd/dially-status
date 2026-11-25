@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T12:00:00Z",
+  "generated": "2026-11-25T15:00:00Z",
   "overall": {
-    "done": 22,
+    "done": 23,
     "total": 44,
-    "percent": 50
+    "percent": 52
   },
   "waves": [
     {
@@ -62,12 +62,12 @@
     {
       "id": "W5",
       "name": "New Core: first working version",
-      "done": 7,
+      "done": 8,
       "total": 11,
-      "percent": 64,
+      "percent": 73,
       "pieces": {
-        "finished": 7,
-        "building": 3,
+        "finished": 8,
+        "building": 2,
         "review": 1,
         "queued": 0
       }
@@ -176,9 +176,9 @@
     {
       "id": "data",
       "name": "Data (PostgreSQL)",
-      "done": 2,
+      "done": 3,
       "total": 4,
-      "percent": 50
+      "percent": 75
     },
     {
       "id": "admin",
@@ -196,11 +196,18 @@
     }
   ],
   "counts": {
-    "building": 5,
+    "building": 4,
     "review": 7,
-    "finished_7d": 22
+    "finished_7d": 23
   },
   "events": [
+    {
+      "at": "2026-11-25T15:00:00Z",
+      "kind": "finished",
+      "area": "data",
+      "text": "Data: a piece of work finished",
+      "highlight": false
+    },
     {
       "at": "2026-11-25T12:00:00Z",
       "kind": "finished",
@@ -403,13 +410,6 @@
       "area": "core",
       "text": "The Core's call handling, agent logic and agent connections now run together as one working program.",
       "highlight": true
-    },
-    {
-      "at": "2026-11-25T04:00:00Z",
-      "kind": "started",
-      "area": "core",
-      "text": "Core: a piece of work was started",
-      "highlight": false
     }
   ]
 }
