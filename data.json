@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T11:00:00Z",
+  "generated": "2026-11-26T13:00:00Z",
   "overall": {
-    "done": 28,
+    "done": 30,
     "total": 52,
-    "percent": 54
+    "percent": 58
   },
   "waves": [
     {
@@ -62,14 +62,14 @@
     {
       "id": "W5",
       "name": "New Core: first working version",
-      "done": 8,
+      "done": 9,
       "total": 11,
-      "percent": 73,
+      "percent": 82,
       "pieces": {
-        "finished": 8,
+        "finished": 9,
         "building": 1,
         "review": 1,
-        "queued": 1
+        "queued": 0
       }
     },
     {
@@ -114,13 +114,13 @@
     {
       "id": "W9",
       "name": "Admin and reports on the new Core",
-      "done": 0,
+      "done": 1,
       "total": 3,
-      "percent": 0,
+      "percent": 33,
       "pieces": {
-        "finished": 0,
+        "finished": 1,
         "building": 0,
-        "review": 2,
+        "review": 1,
         "queued": 1
       }
     },
@@ -176,16 +176,16 @@
     {
       "id": "data",
       "name": "Data (PostgreSQL)",
-      "done": 3,
+      "done": 4,
       "total": 4,
-      "percent": 75
+      "percent": 100
     },
     {
       "id": "admin",
       "name": "Admin and reports",
-      "done": 0,
+      "done": 1,
       "total": 3,
-      "percent": 0
+      "percent": 33
     },
     {
       "id": "platform",
@@ -197,10 +197,24 @@
   ],
   "counts": {
     "building": 2,
-    "review": 10,
-    "finished_7d": 28
+    "review": 9,
+    "finished_7d": 30
   },
   "events": [
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "admin",
+      "text": "Admin and reports: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "data",
+      "text": "Data: a piece of work finished",
+      "highlight": false
+    },
     {
       "at": "2026-11-26T10:00:00Z",
       "kind": "finished",
@@ -396,20 +410,6 @@
       "area": "platform",
       "text": "Platform: a piece of work finished",
       "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "core",
-      "text": "The agent API contract is written down in an open standard format, so every part of Dially can be built against the same rules.",
-      "highlight": true
     }
   ]
 }
