@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T16:00:00Z",
+  "generated": "2026-11-26T23:00:00Z",
   "overall": {
     "done": 31,
-    "total": 52,
-    "percent": 60
+    "total": 53,
+    "percent": 58
   },
   "waves": [
     {
@@ -141,13 +141,13 @@
       "id": "D",
       "name": "Decisions to make",
       "done": 4,
-      "total": 7,
-      "percent": 57,
+      "total": 8,
+      "percent": 50,
       "pieces": {
         "finished": 4,
         "building": 0,
         "review": 2,
-        "queued": 1
+        "queued": 2
       }
     }
   ],
@@ -201,6 +201,13 @@
     "finished_7d": 31
   },
   "events": [
+    {
+      "at": "2026-11-26T17:00:00Z",
+      "kind": "started",
+      "area": null,
+      "text": "A piece of work was started",
+      "highlight": false
+    },
     {
       "at": "2026-11-26T13:00:00Z",
       "kind": "finished",
@@ -374,13 +381,6 @@
       "kind": "finished",
       "area": null,
       "text": "A piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
       "highlight": false
     },
     {
