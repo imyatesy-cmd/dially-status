@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T13:00:00Z",
+  "generated": "2026-11-26T16:00:00Z",
   "overall": {
-    "done": 30,
+    "done": 31,
     "total": 52,
-    "percent": 58
+    "percent": 60
   },
   "waves": [
     {
@@ -88,13 +88,13 @@
     {
       "id": "W7",
       "name": "Call control on the new Core",
-      "done": 0,
+      "done": 1,
       "total": 2,
-      "percent": 0,
+      "percent": 50,
       "pieces": {
-        "finished": 0,
+        "finished": 1,
         "building": 0,
-        "review": 1,
+        "review": 0,
         "queued": 1
       }
     },
@@ -169,9 +169,9 @@
     {
       "id": "telephony",
       "name": "Phone system (Asterisk)",
-      "done": 1,
+      "done": 2,
       "total": 5,
-      "percent": 20
+      "percent": 40
     },
     {
       "id": "data",
@@ -197,8 +197,8 @@
   ],
   "counts": {
     "building": 0,
-    "review": 6,
-    "finished_7d": 30
+    "review": 5,
+    "finished_7d": 31
   },
   "events": [
     {
@@ -213,6 +213,13 @@
       "kind": "finished",
       "area": "admin",
       "text": "The new Core has admin and supervisor operations behind its API, with per-person permissions, group scoping and an audit trail, not yet in daily use.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "telephony",
+      "text": "When a call is transferred, the agent receiving it is now told by the new system, and the evidence is kept for the comparison tool.",
       "highlight": true
     },
     {
@@ -367,13 +374,6 @@
       "kind": "finished",
       "area": null,
       "text": "A piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
       "highlight": false
     },
     {
