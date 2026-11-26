@@ -2,9 +2,9 @@
   "schema": 1,
   "generated": "2026-11-26T13:00:00Z",
   "overall": {
-    "done": 30,
+    "done": 33,
     "total": 52,
-    "percent": 58
+    "percent": 63
   },
   "waves": [
     {
@@ -29,32 +29,32 @@
       "pieces": {
         "finished": 0,
         "building": 0,
-        "review": 1,
-        "queued": 1
+        "review": 0,
+        "queued": 2
       }
     },
     {
       "id": "W3",
       "name": "Phone system modernised",
-      "done": 0,
+      "done": 1,
       "total": 2,
-      "percent": 0,
+      "percent": 50,
       "pieces": {
-        "finished": 0,
+        "finished": 1,
         "building": 0,
-        "review": 2,
-        "queued": 0
+        "review": 0,
+        "queued": 1
       }
     },
     {
       "id": "W4",
       "name": "Phone system on the long-term release",
-      "done": 0,
+      "done": 1,
       "total": 1,
-      "percent": 0,
+      "percent": 100,
       "pieces": {
-        "finished": 0,
-        "building": 1,
+        "finished": 1,
+        "building": 0,
         "review": 0,
         "queued": 0
       }
@@ -62,12 +62,12 @@
     {
       "id": "W5",
       "name": "New Core: first working version",
-      "done": 9,
+      "done": 10,
       "total": 11,
-      "percent": 82,
+      "percent": 91,
       "pieces": {
-        "finished": 9,
-        "building": 1,
+        "finished": 10,
+        "building": 0,
         "review": 1,
         "queued": 0
       }
@@ -155,9 +155,9 @@
     {
       "id": "core",
       "name": "Core (the new engine)",
-      "done": 11,
+      "done": 12,
       "total": 18,
-      "percent": 61
+      "percent": 67
     },
     {
       "id": "phone",
@@ -169,9 +169,9 @@
     {
       "id": "telephony",
       "name": "Phone system (Asterisk)",
-      "done": 1,
+      "done": 3,
       "total": 5,
-      "percent": 20
+      "percent": 60
     },
     {
       "id": "data",
@@ -196,24 +196,45 @@
     }
   ],
   "counts": {
-    "building": 2,
-    "review": 9,
-    "finished_7d": 30
+    "building": 0,
+    "review": 6,
+    "finished_7d": 33
   },
   "events": [
     {
       "at": "2026-11-26T13:00:00Z",
       "kind": "finished",
-      "area": "admin",
-      "text": "Admin and reports: a piece of work finished",
+      "area": "telephony",
+      "text": "A separate test copy of the new phone engine now runs on a test machine.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "core",
+      "text": "Core: a piece of work finished",
+      "highlight": false
+    },
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "telephony",
+      "text": "Phone system: a piece of work finished",
       "highlight": false
     },
     {
       "at": "2026-11-26T13:00:00Z",
       "kind": "finished",
       "area": "data",
-      "text": "Data: a piece of work finished",
-      "highlight": false
+      "text": "PostgreSQL 16 and the new Core now run together on the test machine: signing in, agent state, a restart and recovery all pass, with backups.",
+      "highlight": true
+    },
+    {
+      "at": "2026-11-26T13:00:00Z",
+      "kind": "finished",
+      "area": "admin",
+      "text": "The new Core has admin and supervisor operations behind its API, with per-person permissions, group scoping and an audit trail, not yet in daily use.",
+      "highlight": true
     },
     {
       "at": "2026-11-26T10:00:00Z",
@@ -367,27 +388,6 @@
       "kind": "finished",
       "area": null,
       "text": "A piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
-      "highlight": false
-    },
-    {
-      "at": "2026-11-25T10:00:00Z",
-      "kind": "finished",
-      "area": "platform",
-      "text": "Platform: a piece of work finished",
       "highlight": false
     },
     {
